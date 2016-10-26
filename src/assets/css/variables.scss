@@ -1,0 +1,65 @@
+/* color
+=================================================================*/
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           #ddd;
+$gray-white  :           lighten($gray-base, 93.5%) !default; // #eee
+$white:                  #fff;
+$red:                    #f00;
+$orange:                 #ff6300;
+$text-color:             $gray-dark !default;  //默认字体颜色 #333
+$link-color:             #337ab7 !default;     //默认边框颜色
+$bg-color:               #f2f2f2;              //默认table heard background color
+
+/* top
+--------------------------------*/
+$top-bg:                 #0099cc;   //top背景色
+$top-bg-hover:           #008fbf; //rgb(0,143,191);
+
+/*idebar color
+--------------------------------*/
+$sidebar-bg:             #3d464d;  //sidebar 背景颜色
+$sidebar-bg-hover:       #526a7d; //rgb(82,106,125); //鼠标hover背景色
+$sidebar-bg-active:      #0099cc;  //当前菜单背景色
+$subbar-bg:              #eaedf1;//rgb(234,237,241);
+$subbar-bg-hover:        #f4f4f4; //鼠标hover背景色
+
+/* table
+-------------------------------*/
+$table-heard-bg:         $bg-color; //表头背景色
+
+
+/* font
+================================================================*/
+$font-family:            "Helvetica","Hiragino Sans GB","Microsoft Yahei", "微软雅黑","Arial","sans-serif";
+$font-size-base:         14px !default; //默认字体大小
+$font-size-lg:           16px ;
+$font-size-super:        30px ;
+$font-size-s:            12px ;
+$font-size-sidebar:      13px ; //左侧菜单栏字体大小
+
+/*padding  margin
+===============================================================*/
+$padding-5:              5px;
+$padding-10:             10px;
+$padding-15:             15px;
+$padding-20:             20px;
+$padding-30:             30px;
+$padding-80:             80px;
+$margin-5:               5px;
+$margin-10:              10px;
+$margin-15:              15px;
+$margin-20:              20px;
+$margin-30:              30px;
+
+/* framework
+--------------------------------*/
+$top-height:              50px;
+$sidebar-width:           120px;
+$sidebar-width-collapsed: 60px;
+$content-left:            240px;
+$content-left-extend:     180px;
+$content-top:             70px;

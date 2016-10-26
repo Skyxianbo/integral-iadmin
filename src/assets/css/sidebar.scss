@@ -1,0 +1,126 @@
+/* =================== sidebar ==================== */
+.sidebar {
+    position: fixed;
+    top: $top-height;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    width: $sidebar-width;
+    font-size: $font-size-sidebar;
+    font-weight: normal;
+    background: $sidebar-bg;
+    transition:0.3s;
+}
+
+.sidebar-panel {
+    margin: 0px ;
+    padding:0px;
+    border: none;
+    background: none;
+}
+.sidebar-panel li a {
+    position: relative;
+    display: block;
+    padding: 13px 20px 13px 52px;
+    height: 50px;
+    /*font-weight: 600;*/
+}
+.sidebar-panel li i {
+    position: absolute;
+    display: block;
+    left: 19px;
+    top: 14px;
+    padding-top: 1px;
+    border-radius: 3px;
+    height: 24px;
+    width: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+.sidebar-panel li a,
+.sidebar-panel li i {
+    color: $white;
+}
+.sidebar-panel li a:hover,
+.sidebar-panel li a:focus {
+    background: $sidebar-bg-hover;
+}
+
+.sidebar-panel li a.active {
+    background: $sidebar-bg-active;
+}
+.sidebar.collapsed {
+    width: 60px;
+    overflow: hidden;
+}
+.sidebar-panel .hidden-collapsed {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.sidebar.collapsed .hidden-collapsed {
+    display: none;
+    transition: 0.3s;
+}
+.sidebar-collapse-button {
+    height:  40px;
+    line-height: 40px;
+    cursor: pointer;
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    background-color: rgb(77,101,120);
+}
+.sidebar-collapse-button span {
+    margin-top: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    transition:0.3s;
+}
+
+/* =================== sidebar-sub ==================== */
+.sidebar-sub {
+    position: fixed;
+    top: $top-height;
+    left: $sidebar-width;
+    z-index: 500;
+    bottom: 0;
+    width: $sidebar-width;
+    background: $subbar-bg ;
+    font-size: 13px;
+    font-weight: normal;
+    transition:0.3s;
+}
+.sidebar-sub-panel {
+    margin: 0px ;
+    padding: 0px;
+    background: none;
+    border: none;
+}
+.sidebar-title {
+    padding: 0px 0px 0px 30px;
+    color: $gray-dark;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    font-weight: 600;
+}
+.sidebar-sub-panel li a {
+    position: relative;
+    display: block;
+    padding: 13px 0px 13px 30px;
+    height: 50px;
+    /*font-weight: 600;*/
+}
+.sidebar-sub-panel li a{
+    color: $gray;
+}
+.sidebar-sub-panel li a:hover,
+.sidebar-sub-panel li a:focus
+{
+    background: $subbar-bg-hover;
+}
+.sidebar-sub-panel li a.active{
+    background: $white;
+}

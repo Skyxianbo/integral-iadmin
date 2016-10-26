@@ -1,0 +1,52 @@
+#top {
+    position: fixed;
+    z-index: 900;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: $top-height;
+    background: $top-bg;
+    color: $white;
+}
+.applogo {
+    padding: 0;
+    margin: 0;
+    float: left;
+    height: $top-height;
+    text-align: left;
+}
+.applogo img {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 35px;
+}
+.applogo .appname {
+    font-size: 18px;
+    line-height: 50px;
+}
+.top-right {
+    float: right;
+}
+.top-right > li {
+    float: left;
+    background: $top-bg;
+}
+.top-right > li > a {
+    padding: 15px 25px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.top-right > li > a > i {
+    font-size: 18px;
+    line-height: 18px;
+}
+.top-right > li > a {
+     color: $white;
+}
+.top-right > li > a:hover,
+.top-right > li > a:focus {
+    background-color: $top-bg-hover;
+}
+.top-right .open .dropdown-toggle {
+    background-color: $top-bg-hover !important;
+}

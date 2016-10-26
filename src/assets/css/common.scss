@@ -1,0 +1,512 @@
+/*======================== commmon css ========================= */
+
+html,
+body {
+    margin: 0;
+    line-height: 1.714285714em; //24px
+    font-size: $font-size-base;
+    font-family: $font-family;
+    outline: 0;
+    background: $white;
+    color: $text-color;
+}
+
+label {
+    font-weight: normal; //去除form label粗体
+}
+
+.label {
+    font-weight: normal; //去除label标签粗体
+}
+
+a {
+    cursor: pointer;
+}
+
+.btn-long {
+    min-width: 100px;
+}
+
+.btn-short {
+    //并排查询条件的，按钮缩小
+    min-width: 70px;
+}
+
+.pagination {
+    padding: 0;
+    margin: 0;
+}
+
+.border-none {
+    border: none;
+}
+
+.font-size-14 {
+    font-size: 15px;
+    color:#666;
+}
+/* table
+------------------------------------ */
+
+.table {
+    border: 1px solid $gray-lighter; //table四面有边框
+    font-size: $font-size-s; //table字体小一号 12px
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid $gray-lighter; //2px 改成 1px
+    background-color: $table-heard-bg; //表头灰色背景色
+    font-weight: normal; //表头字体粗体改成normal
+    color: $gray-light; //表头字体颜色改淡
+}
+
+//增加行间距
+.table > thead > tr > th {
+    padding-top: $padding-10;
+    padding-tottom: $padding-10;
+}
+
+.table > tbody > tr > td {
+    padding-top: $padding-10;
+    padding-bottom: $padding-10;
+}
+
+
+/* form
+------------------------------------ */
+
+
+/* search form
+   查询条件框字体改成 12px
+*/
+
+.btn-search {
+    color: $white;
+    background-color: $top-bg;
+    border-radius: 5px;
+    padding: 3px 15px;
+}
+
+
+/* 必输项前面的 * 号格式 */
+
+.text-required {
+    display: inline-block;
+    margin-right: $margin-5;
+    margin-top: $margin-5;
+    vertical-align: middle;
+    font-size: $font-size-lg;
+    color: $red;
+}
+
+
+/* margin padding
+===================================  */
+
+.padding-5 {
+    padding: $padding-5;
+}
+
+.padding-10 {
+    padding: $padding-10;
+}
+
+.padding-15 {
+    padding: $padding-15;
+}
+
+.padding-20 {
+    padding: $padding-20;
+}
+
+.padding-30 {
+    padding: $padding-30;
+}
+
+.padding-top-5 {
+    padding-top: $padding-5;
+}
+
+.padding-top-10 {
+    padding-top: $padding-10;
+}
+
+.padding-top-15 {
+    padding-top: $padding-15;
+}
+
+.padding-top-20 {
+    padding-top: $padding-20;
+}
+
+.padding-top-30 {
+    padding-top: $padding-30;
+}
+.padding-top-80 {
+    padding-top: $padding-80;
+}
+
+.padding-right-5 {
+    padding-right: $padding-5;
+}
+
+.padding-right-10 {
+    padding-right: $padding-10;
+}
+
+.padding-right-15 {
+    padding-right: $padding-15;
+}
+
+.padding-right-20 {
+    padding-right: $padding-20;
+}
+
+.padding-right-30 {
+    padding-right: $padding-30;
+}
+
+.padding-bottom-5 {
+    padding-bottom: $padding-5;
+}
+
+.padding-bottom-10 {
+    padding-bottom: $padding-10;
+}
+
+.padding-bottom-20 {
+    padding-bottom: $padding-20;
+}
+
+.padding-bottom-30 {
+    padding-bottom: $padding-30;
+}
+
+.padding-left-15 {
+    padding-bottom: $padding-15;
+}
+
+.padding-left-20 {
+    padding-bottom: $padding-20;
+}
+
+.padding-left-30 {
+    padding-bottom: $padding-30;
+}
+.padding-left-0{
+    padding-left:0;
+}
+.padding-left-5 {
+    padding-left: $padding-5;
+}
+
+.padding-left-10 {
+    padding-left: $padding-10;
+}
+
+.padding-left-15 {
+    padding-left: $padding-15;
+}
+
+.padding-left-20 {
+    padding-left: $padding-20;
+}
+
+.padding-left-30 {
+    padding-left: $padding-30;
+}
+
+.margin-5 {
+    margin: $margin-5;
+}
+
+.margin-10 {
+    margin: $margin-10;
+}
+
+.margin-15 {
+    margin: $margin-15;
+}
+
+.margin-20 {
+    margin: $margin-20;
+}
+
+.margin-30 {
+    margin: $margin-30;
+}
+
+.margin-top-5 {
+    margin-top: $margin-5;
+}
+
+.margin-top-10 {
+    margin-top: $margin-10;
+}
+
+.margin-top-15 {
+    margin-top: $margin-15;
+}
+
+.margin-top-20 {
+    margin-top: $margin-20;
+}
+
+.margin-top-30 {
+    margin-top: $margin-30;
+}
+
+.margin-right-5 {
+    margin-right: $margin-5;
+}
+
+.margin-right-10 {
+    margin-right: $margin-10;
+}
+
+.margin-right-15 {
+    margin-right: $margin-15;
+}
+
+.margin-right-20 {
+    margin-right: $margin-20;
+}
+
+.margin-right-30 {
+    margin-right: $margin-30;
+}
+
+.margin-bottom-5 {
+    margin-bottom: $margin-5;
+}
+
+.margin-bottom-10 {
+    margin-bottom: $margin-10;
+}
+
+.margin-bottom-15 {
+    margin-bottom: $margin-15;
+}
+
+.margin-bottom-20 {
+    margin-bottom: $margin-20;
+}
+
+.margin-bottom-30 {
+    margin-bottom: $margin-30;
+}
+
+.margin-left-5 {
+    margin-left: $margin-5;
+}
+
+.margin-left-10 {
+    margin-left: $margin-10;
+}
+
+.margin-left-15 {
+    margin-left: $margin-15;
+}
+
+.margin-left-20 {
+    margin-left: $margin-20;
+}
+
+.margin-left-30 {
+    margin-left: $margin-30;
+}
+
+
+/*
+============================================*/
+
+
+/* 内容页 */
+
+.content {
+    margin-left: $content-left;
+    padding-top: $content-top;
+    padding-left: $padding-15;
+    padding-right: $padding-15;
+    padding-bottom: $padding-30;
+    // min-height: 1200px;
+    min-height: 600px;
+    background: $white;
+    transition: 0.3s;
+}
+
+
+/* 内容页标题 */
+
+.content-title {
+    margin-bottom: $margin-15;
+    font-size: $font-size-lg;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $gray-light;
+}
+
+.border-left-orange {
+    padding-left: 10px;
+    border-left: 3px solid $orange;
+}
+/*----------------字体----------------------*/
+
+.font-weight{
+    font-weight:bold;
+
+}
+.font-size-24{font-size:24px;}
+.font-size-14{font-size:14px;}
+.font-size-13{font-size:13px;}
+/*----------------color----------------------*/
+
+.gray-border-1 {
+    border: 1px solid $gray-lighter;
+}
+
+.bg-gray-lighter {
+    background: $gray-lighter;
+}
+.bg-gray-white{
+    background: $gray-white;
+}
+.text-orange {
+    color: $orange;
+}
+
+.text-gray-white {
+    color: $gray-white;
+}
+
+.text-gray-light {
+    color: $gray-light;
+}
+
+
+/*----------------------text-------------*/
+
+.text-lg {
+    font-size: $font-size-lg;
+}
+
+.text-small {
+    font-size: $font-size-s;
+}
+
+.text-super {
+    font-size: $font-size-super;
+}
+
+.text-base {
+    font-size: $font-size-base;
+}
+.text-align{
+    text-align:center;
+}
+
+
+/*-----------------------表单-----------------*/
+
+.form-control-auto {
+    display: inline-block;
+    width: auto;
+}
+
+.input-with-icon {
+    display: inline-block;
+    ;
+    position: relative;
+    input {
+        padding-left: 30px;
+        width: 130px;
+    }
+    .fa {
+        position: absolute;
+        left: 10px;
+        top: 9px;
+    }
+}
+.button-primary {
+    color: $white;
+    background-color: $top-bg;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button-default {
+    width: 80px;
+    color: #333;
+    background-color: $white;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.btn-with-file {
+    position: relative;
+    overflow: hidden;
+    input {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*---------------------common------------------------*/
+
+.inline-block {
+    display: inline-block;
+}
+
+.td-vertical-middle {
+    vertical-align: middle !important;
+}
+
+//flex
+.flex {
+    display: flex;
+
+}
+.flex-cell {
+  flex: 1;
+  text-align:center;
+  border-right:1px dashed #999;
+}
+
+
+.flex-center-v {
+    align-items: center;
+}
+
+.flex-center-h {
+  justify-content: center;
+}
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.alert-validator {
+    margin: 0;
+    padding: 0;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    display: none;
+}
+
+.dashed-line {
+    border-top: 1px dashed #333;
+}
+
+.simditor-sm .simditor .simditor-body {
+    min-height: 200px;
+}
