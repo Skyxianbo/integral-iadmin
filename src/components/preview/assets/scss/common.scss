@@ -1,0 +1,143 @@
+#app {
+    height: 100%;
+    width: 100%;
+}
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+ul.list-inline{
+    list-style: none;
+    overflow: hidden;
+    _zoom:1;
+    li{
+        list-style: none;
+        float:left;
+    }
+}
+
+
+
+
+/************颜色********/
+
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-pink {
+    background-color: $pink;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+.text-gray {
+    color: $gray;
+}
+
+.text-sliver {
+    color: $sliver;
+}
+
+.text-red {
+    color: $red;
+}
+
+.text-white {
+    color: $white;
+}
+
+
+/********字体***********/
+
+.text-small {
+    font-size: pxTorem(24);
+}
+
+.text-normal {
+    font-size:pxTorem(26);
+}
+
+.text-large {
+    font-size: pxTorem(28);
+}
+
+.text-huge {
+    font-size: pxTorem(36);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+/*******按钮**********/
+
+.btn {
+    padding:0;
+    height: pxTorem(50);
+    line-height: pxTorem(50);
+    border:0;
+    border-radius: pxTorem(10);
+    font-size: pxTorem(30);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-large {
+    height: pxTorem(80);
+    line-height: pxTorem(80);
+}
+
+.btn-red {
+    background-color: $red;
+    border-color: $red;
+    color: $white;
+}
+.swiper-pagination-bullet {
+    padding: pxTorem(6);
+    margin: 0 pxTorem(8) !important;
+    border-radius: 50%;
+    background-color: $white !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: $sliver !important;
+
+}

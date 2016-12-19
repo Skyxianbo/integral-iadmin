@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 117685 */
+  src: url('//at.alicdn.com/t/font_lw1we175d2lf2yb9.eot');
+  src: url('//at.alicdn.com/t/font_lw1we175d2lf2yb9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_lw1we175d2lf2yb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_lw1we175d2lf2yb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_lw1we175d2lf2yb9.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit:before { content: "\e611"; }
+
+.icon-cart:before { content: "\e600"; }
+
+.icon-error:before { content: "\e602"; }
+
+.icon-collection:before { content: "\e603"; }
+
+.icon-delete:before { content: "\e604"; }
+
+.icon-scan:before { content: "\e605"; }
+
+.icon-drag-up:before { content: "\e606"; }
+
+.icon-config:before { content: "\e607"; }
+
+.icon-sound:before { content: "\e608"; }
+
+.icon-time:before { content: "\e609"; }
+
+.icon-location:before { content: "\e60a"; }
+
+.icon-home:before { content: "\e60b"; }
+
+.icon-refresh:before { content: "\e60c"; }
+
+.icon-search:before { content: "\e60d"; }
+
+.icon-warn:before { content: "\e60e"; }
+
+.icon-correct-circle-hollow:before { content: "\e60f"; }
+
+.icon-order:before { content: "\e610"; }
+
+.icon-user:before { content: "\e612"; }
+
+.icon-drag-down:before { content: "\e613"; }
+
+.icon-arrows-up:before { content: "\e614"; }
+
+.icon-arrows-down:before { content: "\e615"; }
+
+.icon-arrows-right:before { content: "\e616"; }
+
+.icon-arrows-left:before { content: "\e617"; }
+
+.icon-right:before { content: "\e618"; }
+
+.icon-message:before { content: "\e619"; }
+
+.icon-error-circle:before { content: "\e61c"; }
+
+.icon-correct-circle:before { content: "\e64a"; }
+
+.icon-car:before { content: "\e61b"; }
+
+.icon-plus-circle:before { content: "\e61a"; }

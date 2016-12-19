@@ -1,0 +1,28 @@
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+}
+
+.fade-enter {
+    opacity: 0
+}
+
+.popup-enter-active,
+.popup-leave-active {
+    transition: transform .5s;
+    -moz-transition: transform .5s;
+    -webkit-transition: transform .5s;
+    -o-transition: transform .5s;
+}
+
+.popup-enter,
+.popup-leave-active {
+    transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
